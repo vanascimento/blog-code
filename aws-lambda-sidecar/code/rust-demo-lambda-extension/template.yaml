@@ -1,0 +1,30 @@
+AWSTemplateFormatVersion: "2010-09-09"
+Transform: AWS::Serverless-2016-10-31
+Description: Lambda Extension Layer with SAM
+
+Parameters:
+  Bucket:
+    Type: String
+  Key:
+    Type: String
+
+Resources:
+  JwtExtensionLayer:
+    Type: AWS::Serverless::LayerVersion
+    Properties:
+      LayerName: JwtExtensionLayer
+      Description: Jwt Lambda extension (compiled for aarch64)
+      ContentUri:
+        Bucket: !Ref Bucket
+        Key: !Ref Key
+      CompatibleRuntimes:
+        - provided.al2023
+        - provided.al2
+      CompatibleArchitectures:
+        - arm64
+Outputs:
+  JwtExtensionLayerArn:
+    Value: !Ref JwtExtensionLayer
+    Description: ARN da Jwt Extension Layer
+    Export:
+      Name: JwtExtensionLayerArn

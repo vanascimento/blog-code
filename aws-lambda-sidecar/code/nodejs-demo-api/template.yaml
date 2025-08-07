@@ -1,0 +1,35 @@
+AWSTemplateFormatVersion: "2010-09-09"
+Transform: AWS::Serverless-2016-10-31
+Description: >
+  nodejs-demo-api
+
+  Sample SAM Template for nodejs-demo-api
+
+Globals:
+  Function:
+    Timeout: 3
+
+    LoggingConfig:
+      LogFormat: JSON
+Resources:
+  MainDemoFunction:
+    Type: AWS::Serverless::Function # More info about Function Resource: https://github.com/awslabs/serverless-application-model/blob/master/versions/2016-10-31.md#awsserverlessfunction
+    Properties:
+      CodeUri: src/
+      Handler: app.handler
+      FunctionName: main-demo-function
+      Runtime: nodejs22.x
+      Architectures:
+        - arm64
+      Layers:
+        - !ImportValue JwtExtensionLayerArn
+      FunctionUrlConfig:
+        AuthType: NONE
+    Metadata: # Manage esbuild properties
+      BuildMethod: esbuild
+      BuildProperties:
+        Minify: false # Disabled for better debugging
+        Target: es2020
+        Sourcemap: true
+        EntryPoints:
+          - app.ts
