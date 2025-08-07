@@ -38,7 +38,7 @@ async fn handle_request(req: Request<Body>) -> Result<Response<Body>, Infallible
                 exp: 2000000000, // timestamp
             };
 
-            let secret = std::env::var("JWT_SECRET").unwrap_or_else(|_| "segredo_super".to_string());
+            let secret = std::env::var("JWT_SECRET").unwrap_or_else(|_| "super_secret".to_string());
 
             let token = encode(&Header::default(), &claims, &EncodingKey::from_secret(secret.as_ref())).unwrap();
 
@@ -46,7 +46,7 @@ async fn handle_request(req: Request<Body>) -> Result<Response<Body>, Infallible
                 token,
                 expires_at: claims.exp,
                 user_id: claims.sub.clone(),
-                message: "Token JWT gerado com sucesso".to_string(),
+                message: "JWT token generated successfully".to_string(),
             };
 
             let json_response = serde_json::to_string(&response).unwrap();
@@ -59,8 +59,8 @@ async fn handle_request(req: Request<Body>) -> Result<Response<Body>, Infallible
         }
         _ => {
             let error_response = serde_json::json!({
-                "error": "Endpoint não encontrado",
-                "message": "Use /token para obter um JWT",
+                "error": "Endpoint not found",
+                "message": "Use /token to get a JWT",
                 "status": 404
             });
 
