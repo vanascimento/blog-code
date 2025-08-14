@@ -1,0 +1,297 @@
+[
+    {
+        "label": "json",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "json",
+        "description": "json",
+        "detail": "json",
+        "documentation": {}
+    },
+    {
+        "label": "runpy",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "runpy",
+        "description": "runpy",
+        "detail": "runpy",
+        "documentation": {}
+    },
+    {
+        "label": "annotations",
+        "importPath": "__future__",
+        "description": "__future__",
+        "isExtraImport": true,
+        "detail": "__future__",
+        "documentation": {}
+    },
+    {
+        "label": "os",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "os",
+        "description": "os",
+        "detail": "os",
+        "documentation": {}
+    },
+    {
+        "label": "site",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "site",
+        "description": "site",
+        "detail": "site",
+        "documentation": {}
+    },
+    {
+        "label": "sys",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "sys",
+        "description": "sys",
+        "detail": "sys",
+        "documentation": {}
+    },
+    {
+        "label": "mysql.connector",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "mysql.connector",
+        "description": "mysql.connector",
+        "detail": "mysql.connector",
+        "documentation": {}
+    },
+    {
+        "label": "time",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "time",
+        "description": "time",
+        "detail": "time",
+        "documentation": {}
+    },
+    {
+        "label": "threading",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "threading",
+        "description": "threading",
+        "detail": "threading",
+        "documentation": {}
+    },
+    {
+        "label": "argparse",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "argparse",
+        "description": "argparse",
+        "detail": "argparse",
+        "documentation": {}
+    },
+    {
+        "label": "datetime",
+        "importPath": "datetime",
+        "description": "datetime",
+        "isExtraImport": true,
+        "detail": "datetime",
+        "documentation": {}
+    },
+    {
+        "label": "_Known",
+        "kind": 6,
+        "importPath": "aws-lambda-sidecar.code.nodejs-demo-api.src.node_modules.flatted.python.flatted",
+        "description": "aws-lambda-sidecar.code.nodejs-demo-api.src.node_modules.flatted.python.flatted",
+        "peekOfCode": "class _Known:\n    def __init__(self):\n        self.key = []\n        self.value = []\nclass _String:\n    def __init__(self, value):\n        self.value = value\ndef _array_keys(value):\n    keys = []\n    i = 0",
+        "detail": "aws-lambda-sidecar.code.nodejs-demo-api.src.node_modules.flatted.python.flatted",
+        "documentation": {}
+    },
+    {
+        "label": "_String",
+        "kind": 6,
+        "importPath": "aws-lambda-sidecar.code.nodejs-demo-api.src.node_modules.flatted.python.flatted",
+        "description": "aws-lambda-sidecar.code.nodejs-demo-api.src.node_modules.flatted.python.flatted",
+        "peekOfCode": "class _String:\n    def __init__(self, value):\n        self.value = value\ndef _array_keys(value):\n    keys = []\n    i = 0\n    for _ in value:\n        keys.append(i)\n        i += 1\n    return keys",
+        "detail": "aws-lambda-sidecar.code.nodejs-demo-api.src.node_modules.flatted.python.flatted",
+        "documentation": {}
+    },
+    {
+        "label": "parse",
+        "kind": 2,
+        "importPath": "aws-lambda-sidecar.code.nodejs-demo-api.src.node_modules.flatted.python.flatted",
+        "description": "aws-lambda-sidecar.code.nodejs-demo-api.src.node_modules.flatted.python.flatted",
+        "peekOfCode": "def parse(value, *args, **kwargs):\n    json = _json.loads(value, *args, **kwargs)\n    wrapped = []\n    for value in json:\n        wrapped.append(_wrap(value))\n    input = []\n    for value in wrapped:\n        if isinstance(value, _String):\n            input.append(value.value)\n        else:",
+        "detail": "aws-lambda-sidecar.code.nodejs-demo-api.src.node_modules.flatted.python.flatted",
+        "documentation": {}
+    },
+    {
+        "label": "stringify",
+        "kind": 2,
+        "importPath": "aws-lambda-sidecar.code.nodejs-demo-api.src.node_modules.flatted.python.flatted",
+        "description": "aws-lambda-sidecar.code.nodejs-demo-api.src.node_modules.flatted.python.flatted",
+        "peekOfCode": "def stringify(value, *args, **kwargs):\n    known = _Known()\n    input = []\n    output = []\n    i = int(_index(known, input, value))\n    while i < len(input):\n        output.append(_transform(known, input, input[i]))\n        i += 1\n    return _json.dumps(output, *args, **kwargs)",
+        "detail": "aws-lambda-sidecar.code.nodejs-demo-api.src.node_modules.flatted.python.flatted",
+        "documentation": {}
+    },
+    {
+        "label": "_Known",
+        "kind": 6,
+        "importPath": "hyperledger-besu-erc20.node_modules.flatted.python.flatted",
+        "description": "hyperledger-besu-erc20.node_modules.flatted.python.flatted",
+        "peekOfCode": "class _Known:\n    def __init__(self):\n        self.key = []\n        self.value = []\nclass _String:\n    def __init__(self, value):\n        self.value = value\ndef _array_keys(value):\n    keys = []\n    i = 0",
+        "detail": "hyperledger-besu-erc20.node_modules.flatted.python.flatted",
+        "documentation": {}
+    },
+    {
+        "label": "_String",
+        "kind": 6,
+        "importPath": "hyperledger-besu-erc20.node_modules.flatted.python.flatted",
+        "description": "hyperledger-besu-erc20.node_modules.flatted.python.flatted",
+        "peekOfCode": "class _String:\n    def __init__(self, value):\n        self.value = value\ndef _array_keys(value):\n    keys = []\n    i = 0\n    for _ in value:\n        keys.append(i)\n        i += 1\n    return keys",
+        "detail": "hyperledger-besu-erc20.node_modules.flatted.python.flatted",
+        "documentation": {}
+    },
+    {
+        "label": "parse",
+        "kind": 2,
+        "importPath": "hyperledger-besu-erc20.node_modules.flatted.python.flatted",
+        "description": "hyperledger-besu-erc20.node_modules.flatted.python.flatted",
+        "peekOfCode": "def parse(value, *args, **kwargs):\n    json = _json.loads(value, *args, **kwargs)\n    wrapped = []\n    for value in json:\n        wrapped.append(_wrap(value))\n    input = []\n    for value in wrapped:\n        if isinstance(value, _String):\n            input.append(value.value)\n        else:",
+        "detail": "hyperledger-besu-erc20.node_modules.flatted.python.flatted",
+        "documentation": {}
+    },
+    {
+        "label": "stringify",
+        "kind": 2,
+        "importPath": "hyperledger-besu-erc20.node_modules.flatted.python.flatted",
+        "description": "hyperledger-besu-erc20.node_modules.flatted.python.flatted",
+        "peekOfCode": "def stringify(value, *args, **kwargs):\n    known = _Known()\n    input = []\n    output = []\n    i = int(_index(known, input, value))\n    while i < len(input):\n        output.append(_transform(known, input, input[i]))\n        i += 1\n    return _json.dumps(output, *args, **kwargs)",
+        "detail": "hyperledger-besu-erc20.node_modules.flatted.python.flatted",
+        "documentation": {}
+    },
+    {
+        "label": "bin_dir",
+        "kind": 5,
+        "importPath": "mysql-connections.test-app..venv.bin.activate_this",
+        "description": "mysql-connections.test-app..venv.bin.activate_this",
+        "peekOfCode": "bin_dir = os.path.dirname(abs_file)\nbase = bin_dir[: -len('bin') - 1]  # strip away the bin part from the __file__, plus the path separator\n# prepend bin to PATH (this file is inside the bin directory)\nos.environ[\"PATH\"] = os.pathsep.join([bin_dir, *os.environ.get(\"PATH\", \"\").split(os.pathsep)])\nos.environ[\"VIRTUAL_ENV\"] = base  # virtual env is right above bin directory\nos.environ[\"VIRTUAL_ENV_PROMPT\"] = 'test-app-py3.12' or os.path.basename(base)\n# add the virtual environments libraries to the host python import mechanism\nprev_length = len(sys.path)\nfor lib in '../lib/python3.12/site-packages'.split(os.pathsep):\n    path = os.path.realpath(os.path.join(bin_dir, lib))",
+        "detail": "mysql-connections.test-app..venv.bin.activate_this",
+        "documentation": {}
+    },
+    {
+        "label": "base",
+        "kind": 5,
+        "importPath": "mysql-connections.test-app..venv.bin.activate_this",
+        "description": "mysql-connections.test-app..venv.bin.activate_this",
+        "peekOfCode": "base = bin_dir[: -len('bin') - 1]  # strip away the bin part from the __file__, plus the path separator\n# prepend bin to PATH (this file is inside the bin directory)\nos.environ[\"PATH\"] = os.pathsep.join([bin_dir, *os.environ.get(\"PATH\", \"\").split(os.pathsep)])\nos.environ[\"VIRTUAL_ENV\"] = base  # virtual env is right above bin directory\nos.environ[\"VIRTUAL_ENV_PROMPT\"] = 'test-app-py3.12' or os.path.basename(base)\n# add the virtual environments libraries to the host python import mechanism\nprev_length = len(sys.path)\nfor lib in '../lib/python3.12/site-packages'.split(os.pathsep):\n    path = os.path.realpath(os.path.join(bin_dir, lib))\n    site.addsitedir(path.decode(\"utf-8\") if '' else path)",
+        "detail": "mysql-connections.test-app..venv.bin.activate_this",
+        "documentation": {}
+    },
+    {
+        "label": "os.environ[\"PATH\"]",
+        "kind": 5,
+        "importPath": "mysql-connections.test-app..venv.bin.activate_this",
+        "description": "mysql-connections.test-app..venv.bin.activate_this",
+        "peekOfCode": "os.environ[\"PATH\"] = os.pathsep.join([bin_dir, *os.environ.get(\"PATH\", \"\").split(os.pathsep)])\nos.environ[\"VIRTUAL_ENV\"] = base  # virtual env is right above bin directory\nos.environ[\"VIRTUAL_ENV_PROMPT\"] = 'test-app-py3.12' or os.path.basename(base)\n# add the virtual environments libraries to the host python import mechanism\nprev_length = len(sys.path)\nfor lib in '../lib/python3.12/site-packages'.split(os.pathsep):\n    path = os.path.realpath(os.path.join(bin_dir, lib))\n    site.addsitedir(path.decode(\"utf-8\") if '' else path)\nsys.path[:] = sys.path[prev_length:] + sys.path[0:prev_length]\nsys.real_prefix = sys.prefix",
+        "detail": "mysql-connections.test-app..venv.bin.activate_this",
+        "documentation": {}
+    },
+    {
+        "label": "os.environ[\"VIRTUAL_ENV\"]",
+        "kind": 5,
+        "importPath": "mysql-connections.test-app..venv.bin.activate_this",
+        "description": "mysql-connections.test-app..venv.bin.activate_this",
+        "peekOfCode": "os.environ[\"VIRTUAL_ENV\"] = base  # virtual env is right above bin directory\nos.environ[\"VIRTUAL_ENV_PROMPT\"] = 'test-app-py3.12' or os.path.basename(base)\n# add the virtual environments libraries to the host python import mechanism\nprev_length = len(sys.path)\nfor lib in '../lib/python3.12/site-packages'.split(os.pathsep):\n    path = os.path.realpath(os.path.join(bin_dir, lib))\n    site.addsitedir(path.decode(\"utf-8\") if '' else path)\nsys.path[:] = sys.path[prev_length:] + sys.path[0:prev_length]\nsys.real_prefix = sys.prefix\nsys.prefix = base",
+        "detail": "mysql-connections.test-app..venv.bin.activate_this",
+        "documentation": {}
+    },
+    {
+        "label": "os.environ[\"VIRTUAL_ENV_PROMPT\"]",
+        "kind": 5,
+        "importPath": "mysql-connections.test-app..venv.bin.activate_this",
+        "description": "mysql-connections.test-app..venv.bin.activate_this",
+        "peekOfCode": "os.environ[\"VIRTUAL_ENV_PROMPT\"] = 'test-app-py3.12' or os.path.basename(base)\n# add the virtual environments libraries to the host python import mechanism\nprev_length = len(sys.path)\nfor lib in '../lib/python3.12/site-packages'.split(os.pathsep):\n    path = os.path.realpath(os.path.join(bin_dir, lib))\n    site.addsitedir(path.decode(\"utf-8\") if '' else path)\nsys.path[:] = sys.path[prev_length:] + sys.path[0:prev_length]\nsys.real_prefix = sys.prefix\nsys.prefix = base",
+        "detail": "mysql-connections.test-app..venv.bin.activate_this",
+        "documentation": {}
+    },
+    {
+        "label": "prev_length",
+        "kind": 5,
+        "importPath": "mysql-connections.test-app..venv.bin.activate_this",
+        "description": "mysql-connections.test-app..venv.bin.activate_this",
+        "peekOfCode": "prev_length = len(sys.path)\nfor lib in '../lib/python3.12/site-packages'.split(os.pathsep):\n    path = os.path.realpath(os.path.join(bin_dir, lib))\n    site.addsitedir(path.decode(\"utf-8\") if '' else path)\nsys.path[:] = sys.path[prev_length:] + sys.path[0:prev_length]\nsys.real_prefix = sys.prefix\nsys.prefix = base",
+        "detail": "mysql-connections.test-app..venv.bin.activate_this",
+        "documentation": {}
+    },
+    {
+        "label": "sys.path[:]",
+        "kind": 5,
+        "importPath": "mysql-connections.test-app..venv.bin.activate_this",
+        "description": "mysql-connections.test-app..venv.bin.activate_this",
+        "peekOfCode": "sys.path[:] = sys.path[prev_length:] + sys.path[0:prev_length]\nsys.real_prefix = sys.prefix\nsys.prefix = base",
+        "detail": "mysql-connections.test-app..venv.bin.activate_this",
+        "documentation": {}
+    },
+    {
+        "label": "sys.real_prefix",
+        "kind": 5,
+        "importPath": "mysql-connections.test-app..venv.bin.activate_this",
+        "description": "mysql-connections.test-app..venv.bin.activate_this",
+        "peekOfCode": "sys.real_prefix = sys.prefix\nsys.prefix = base",
+        "detail": "mysql-connections.test-app..venv.bin.activate_this",
+        "documentation": {}
+    },
+    {
+        "label": "sys.prefix",
+        "kind": 5,
+        "importPath": "mysql-connections.test-app..venv.bin.activate_this",
+        "description": "mysql-connections.test-app..venv.bin.activate_this",
+        "peekOfCode": "sys.prefix = base",
+        "detail": "mysql-connections.test-app..venv.bin.activate_this",
+        "documentation": {}
+    },
+    {
+        "label": "test_connection",
+        "kind": 2,
+        "importPath": "mysql-connections.test-app.main",
+        "description": "mysql-connections.test-app.main",
+        "peekOfCode": "def test_connection(port):\n    \"\"\"Test database connection\"\"\"\n    try:\n        connection = mysql.connector.connect(\n            host='localhost',\n            port=port,\n            user='root',\n            password='rootpass',\n            database='bank_db',\n            auth_plugin='mysql_native_password'",
+        "detail": "mysql-connections.test-app.main",
+        "documentation": {}
+    },
+    {
+        "label": "execute_query",
+        "kind": 2,
+        "importPath": "mysql-connections.test-app.main",
+        "description": "mysql-connections.test-app.main",
+        "peekOfCode": "def execute_query(connection, query_id):\n    \"\"\"Execute a single SELECT query\"\"\"\n    start_time = time.time()\n    try:\n        cursor = connection.cursor()\n        # Simple queries to test\n        queries = [\n            \"SELECT COUNT(*) FROM TB_BANK_TRANSACTIONS\",\n            \"SELECT * FROM TB_BANK_TRANSACTIONS WHERE transaction_type = 'DEPOSIT' LIMIT 5\",\n            \"SELECT * FROM TB_BANK_TRANSACTIONS WHERE amount > 1000 LIMIT 5\",",
+        "detail": "mysql-connections.test-app.main",
+        "documentation": {}
+    },
+    {
+        "label": "load_test_worker",
+        "kind": 2,
+        "importPath": "mysql-connections.test-app.main",
+        "description": "mysql-connections.test-app.main",
+        "peekOfCode": "def load_test_worker(thread_id, queries_per_second, duration, results, port):\n    \"\"\"Worker thread for load testing\"\"\"\n    try:\n        query_id = thread_id * 1000\n        start_time = time.time()\n        while time.time() - start_time < duration:\n            thread_start = time.time()\n            # Execute queries for this second\n            for i in range(queries_per_second):\n                if time.time() - start_time >= duration:",
+        "detail": "mysql-connections.test-app.main",
+        "documentation": {}
+    },
+    {
+        "label": "main",
+        "kind": 2,
+        "importPath": "mysql-connections.test-app.main",
+        "description": "mysql-connections.test-app.main",
+        "peekOfCode": "def main():\n    # Parse command line arguments\n    parser = argparse.ArgumentParser(description='MySQL Load Test')\n    parser.add_argument('--port', type=int, default=3306, \n                       help='MySQL port (default: 3306)')\n    args = parser.parse_args()\n    port = args.port\n    print(\"🚀 Simple MySQL Load Test\")\n    print(\"=\" * 40)\n    print(f\"🔌 Connecting to MySQL on port {port}\")",
+        "detail": "mysql-connections.test-app.main",
+        "documentation": {}
+    },
+    {
+        "label": "test_mysql_connection",
+        "kind": 2,
+        "importPath": "mysql-connections.test-app.test_connection",
+        "description": "mysql-connections.test-app.test_connection",
+        "peekOfCode": "def test_mysql_connection(port):\n    \"\"\"Test basic MySQL connection\"\"\"\n    try:\n        print(f\"🔌 Testing MySQL connection on port {port}...\")\n        connection = mysql.connector.connect(\n            host='localhost',\n            port=port,\n            user='root',\n            password='rootpass',\n            database='bank_db',",
+        "detail": "mysql-connections.test-app.test_connection",
+        "documentation": {}
+    }
+]
