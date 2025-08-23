@@ -1,0 +1,596 @@
+[
+    {
+        "label": "runpy",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "runpy",
+        "description": "runpy",
+        "detail": "runpy",
+        "documentation": {}
+    },
+    {
+        "label": "annotations",
+        "importPath": "__future__",
+        "description": "__future__",
+        "isExtraImport": true,
+        "detail": "__future__",
+        "documentation": {}
+    },
+    {
+        "label": "annotations",
+        "importPath": "__future__",
+        "description": "__future__",
+        "isExtraImport": true,
+        "detail": "__future__",
+        "documentation": {}
+    },
+    {
+        "label": "annotations",
+        "importPath": "__future__",
+        "description": "__future__",
+        "isExtraImport": true,
+        "detail": "__future__",
+        "documentation": {}
+    },
+    {
+        "label": "os",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "os",
+        "description": "os",
+        "detail": "os",
+        "documentation": {}
+    },
+    {
+        "label": "site",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "site",
+        "description": "site",
+        "detail": "site",
+        "documentation": {}
+    },
+    {
+        "label": "sys",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "sys",
+        "description": "sys",
+        "detail": "sys",
+        "documentation": {}
+    },
+    {
+        "label": "dataclass",
+        "importPath": "dataclasses",
+        "description": "dataclasses",
+        "isExtraImport": true,
+        "detail": "dataclasses",
+        "documentation": {}
+    },
+    {
+        "label": "field",
+        "importPath": "dataclasses",
+        "description": "dataclasses",
+        "isExtraImport": true,
+        "detail": "dataclasses",
+        "documentation": {}
+    },
+    {
+        "label": "fields",
+        "importPath": "dataclasses",
+        "description": "dataclasses",
+        "isExtraImport": true,
+        "detail": "dataclasses",
+        "documentation": {}
+    },
+    {
+        "label": "dataclass",
+        "importPath": "dataclasses",
+        "description": "dataclasses",
+        "isExtraImport": true,
+        "detail": "dataclasses",
+        "documentation": {}
+    },
+    {
+        "label": "field",
+        "importPath": "dataclasses",
+        "description": "dataclasses",
+        "isExtraImport": true,
+        "detail": "dataclasses",
+        "documentation": {}
+    },
+    {
+        "label": "Annotated",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "Dict",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "List",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "Literal",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "cast",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "Sequence",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "Any",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "Callable",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "List",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "Optional",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "cast",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "UTC",
+        "importPath": "datetime",
+        "description": "datetime",
+        "isExtraImport": true,
+        "detail": "datetime",
+        "documentation": {}
+    },
+    {
+        "label": "datetime",
+        "importPath": "datetime",
+        "description": "datetime",
+        "isExtraImport": true,
+        "detail": "datetime",
+        "documentation": {}
+    },
+    {
+        "label": "AIMessage",
+        "importPath": "langchain_core.messages",
+        "description": "langchain_core.messages",
+        "isExtraImport": true,
+        "detail": "langchain_core.messages",
+        "documentation": {}
+    },
+    {
+        "label": "AnyMessage",
+        "importPath": "langchain_core.messages",
+        "description": "langchain_core.messages",
+        "isExtraImport": true,
+        "detail": "langchain_core.messages",
+        "documentation": {}
+    },
+    {
+        "label": "BaseMessage",
+        "importPath": "langchain_core.messages",
+        "description": "langchain_core.messages",
+        "isExtraImport": true,
+        "detail": "langchain_core.messages",
+        "documentation": {}
+    },
+    {
+        "label": "StateGraph",
+        "importPath": "langgraph.graph",
+        "description": "langgraph.graph",
+        "isExtraImport": true,
+        "detail": "langgraph.graph",
+        "documentation": {}
+    },
+    {
+        "label": "add_messages",
+        "importPath": "langgraph.graph",
+        "description": "langgraph.graph",
+        "isExtraImport": true,
+        "detail": "langgraph.graph",
+        "documentation": {}
+    },
+    {
+        "label": "ToolNode",
+        "importPath": "langgraph.prebuilt",
+        "description": "langgraph.prebuilt",
+        "isExtraImport": true,
+        "detail": "langgraph.prebuilt",
+        "documentation": {}
+    },
+    {
+        "label": "Runtime",
+        "importPath": "langgraph.runtime",
+        "description": "langgraph.runtime",
+        "isExtraImport": true,
+        "detail": "langgraph.runtime",
+        "documentation": {}
+    },
+    {
+        "label": "get_runtime",
+        "importPath": "langgraph.runtime",
+        "description": "langgraph.runtime",
+        "isExtraImport": true,
+        "detail": "langgraph.runtime",
+        "documentation": {}
+    },
+    {
+        "label": "Context",
+        "importPath": "react_agent.context",
+        "description": "react_agent.context",
+        "isExtraImport": true,
+        "detail": "react_agent.context",
+        "documentation": {}
+    },
+    {
+        "label": "Context",
+        "importPath": "react_agent.context",
+        "description": "react_agent.context",
+        "isExtraImport": true,
+        "detail": "react_agent.context",
+        "documentation": {}
+    },
+    {
+        "label": "Context",
+        "importPath": "react_agent.context",
+        "description": "react_agent.context",
+        "isExtraImport": true,
+        "detail": "react_agent.context",
+        "documentation": {}
+    },
+    {
+        "label": "Context",
+        "importPath": "react_agent.context",
+        "description": "react_agent.context",
+        "isExtraImport": true,
+        "detail": "react_agent.context",
+        "documentation": {}
+    },
+    {
+        "label": "InputState",
+        "importPath": "react_agent.state",
+        "description": "react_agent.state",
+        "isExtraImport": true,
+        "detail": "react_agent.state",
+        "documentation": {}
+    },
+    {
+        "label": "State",
+        "importPath": "react_agent.state",
+        "description": "react_agent.state",
+        "isExtraImport": true,
+        "detail": "react_agent.state",
+        "documentation": {}
+    },
+    {
+        "label": "TOOLS",
+        "importPath": "react_agent.tools",
+        "description": "react_agent.tools",
+        "isExtraImport": true,
+        "detail": "react_agent.tools",
+        "documentation": {}
+    },
+    {
+        "label": "ChatOpenAI",
+        "importPath": "langchain_openai",
+        "description": "langchain_openai",
+        "isExtraImport": true,
+        "detail": "langchain_openai",
+        "documentation": {}
+    },
+    {
+        "label": "PostgresSaver",
+        "importPath": "langgraph.checkpoint.postgres",
+        "description": "langgraph.checkpoint.postgres",
+        "isExtraImport": true,
+        "detail": "langgraph.checkpoint.postgres",
+        "documentation": {}
+    },
+    {
+        "label": "IsLastStep",
+        "importPath": "langgraph.managed",
+        "description": "langgraph.managed",
+        "isExtraImport": true,
+        "detail": "langgraph.managed",
+        "documentation": {}
+    },
+    {
+        "label": "Annotated",
+        "importPath": "typing_extensions",
+        "description": "typing_extensions",
+        "isExtraImport": true,
+        "detail": "typing_extensions",
+        "documentation": {}
+    },
+    {
+        "label": "TavilySearch",
+        "importPath": "langchain_tavily",
+        "description": "langchain_tavily",
+        "isExtraImport": true,
+        "detail": "langchain_tavily",
+        "documentation": {}
+    },
+    {
+        "label": "init_chat_model",
+        "importPath": "langchain.chat_models",
+        "description": "langchain.chat_models",
+        "isExtraImport": true,
+        "detail": "langchain.chat_models",
+        "documentation": {}
+    },
+    {
+        "label": "BaseChatModel",
+        "importPath": "langchain_core.language_models",
+        "description": "langchain_core.language_models",
+        "isExtraImport": true,
+        "detail": "langchain_core.language_models",
+        "documentation": {}
+    },
+    {
+        "label": "pytest",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "pytest",
+        "description": "pytest",
+        "detail": "pytest",
+        "documentation": {}
+    },
+    {
+        "label": "unit",
+        "importPath": "langsmith",
+        "description": "langsmith",
+        "isExtraImport": true,
+        "detail": "langsmith",
+        "documentation": {}
+    },
+    {
+        "label": "graph",
+        "importPath": "react_agent",
+        "description": "react_agent",
+        "isExtraImport": true,
+        "detail": "react_agent",
+        "documentation": {}
+    },
+    {
+        "label": "bin_dir",
+        "kind": 5,
+        "importPath": ".venv.bin.activate_this",
+        "description": ".venv.bin.activate_this",
+        "peekOfCode": "bin_dir = os.path.dirname(abs_file)\nbase = bin_dir[: -len('bin') - 1]  # strip away the bin part from the __file__, plus the path separator\n# prepend bin to PATH (this file is inside the bin directory)\nos.environ[\"PATH\"] = os.pathsep.join([bin_dir, *os.environ.get(\"PATH\", \"\").split(os.pathsep)])\nos.environ[\"VIRTUAL_ENV\"] = base  # virtual env is right above bin directory\nos.environ[\"VIRTUAL_ENV_PROMPT\"] = 'langgraph-teams-mcp-database-py3.13' or os.path.basename(base)\n# add the virtual environments libraries to the host python import mechanism\nprev_length = len(sys.path)\nfor lib in '../lib/python3.13/site-packages'.split(os.pathsep):\n    path = os.path.realpath(os.path.join(bin_dir, lib))",
+        "detail": ".venv.bin.activate_this",
+        "documentation": {}
+    },
+    {
+        "label": "base",
+        "kind": 5,
+        "importPath": ".venv.bin.activate_this",
+        "description": ".venv.bin.activate_this",
+        "peekOfCode": "base = bin_dir[: -len('bin') - 1]  # strip away the bin part from the __file__, plus the path separator\n# prepend bin to PATH (this file is inside the bin directory)\nos.environ[\"PATH\"] = os.pathsep.join([bin_dir, *os.environ.get(\"PATH\", \"\").split(os.pathsep)])\nos.environ[\"VIRTUAL_ENV\"] = base  # virtual env is right above bin directory\nos.environ[\"VIRTUAL_ENV_PROMPT\"] = 'langgraph-teams-mcp-database-py3.13' or os.path.basename(base)\n# add the virtual environments libraries to the host python import mechanism\nprev_length = len(sys.path)\nfor lib in '../lib/python3.13/site-packages'.split(os.pathsep):\n    path = os.path.realpath(os.path.join(bin_dir, lib))\n    site.addsitedir(path.decode(\"utf-8\") if '' else path)",
+        "detail": ".venv.bin.activate_this",
+        "documentation": {}
+    },
+    {
+        "label": "os.environ[\"PATH\"]",
+        "kind": 5,
+        "importPath": ".venv.bin.activate_this",
+        "description": ".venv.bin.activate_this",
+        "peekOfCode": "os.environ[\"PATH\"] = os.pathsep.join([bin_dir, *os.environ.get(\"PATH\", \"\").split(os.pathsep)])\nos.environ[\"VIRTUAL_ENV\"] = base  # virtual env is right above bin directory\nos.environ[\"VIRTUAL_ENV_PROMPT\"] = 'langgraph-teams-mcp-database-py3.13' or os.path.basename(base)\n# add the virtual environments libraries to the host python import mechanism\nprev_length = len(sys.path)\nfor lib in '../lib/python3.13/site-packages'.split(os.pathsep):\n    path = os.path.realpath(os.path.join(bin_dir, lib))\n    site.addsitedir(path.decode(\"utf-8\") if '' else path)\nsys.path[:] = sys.path[prev_length:] + sys.path[0:prev_length]\nsys.real_prefix = sys.prefix",
+        "detail": ".venv.bin.activate_this",
+        "documentation": {}
+    },
+    {
+        "label": "os.environ[\"VIRTUAL_ENV\"]",
+        "kind": 5,
+        "importPath": ".venv.bin.activate_this",
+        "description": ".venv.bin.activate_this",
+        "peekOfCode": "os.environ[\"VIRTUAL_ENV\"] = base  # virtual env is right above bin directory\nos.environ[\"VIRTUAL_ENV_PROMPT\"] = 'langgraph-teams-mcp-database-py3.13' or os.path.basename(base)\n# add the virtual environments libraries to the host python import mechanism\nprev_length = len(sys.path)\nfor lib in '../lib/python3.13/site-packages'.split(os.pathsep):\n    path = os.path.realpath(os.path.join(bin_dir, lib))\n    site.addsitedir(path.decode(\"utf-8\") if '' else path)\nsys.path[:] = sys.path[prev_length:] + sys.path[0:prev_length]\nsys.real_prefix = sys.prefix\nsys.prefix = base",
+        "detail": ".venv.bin.activate_this",
+        "documentation": {}
+    },
+    {
+        "label": "os.environ[\"VIRTUAL_ENV_PROMPT\"]",
+        "kind": 5,
+        "importPath": ".venv.bin.activate_this",
+        "description": ".venv.bin.activate_this",
+        "peekOfCode": "os.environ[\"VIRTUAL_ENV_PROMPT\"] = 'langgraph-teams-mcp-database-py3.13' or os.path.basename(base)\n# add the virtual environments libraries to the host python import mechanism\nprev_length = len(sys.path)\nfor lib in '../lib/python3.13/site-packages'.split(os.pathsep):\n    path = os.path.realpath(os.path.join(bin_dir, lib))\n    site.addsitedir(path.decode(\"utf-8\") if '' else path)\nsys.path[:] = sys.path[prev_length:] + sys.path[0:prev_length]\nsys.real_prefix = sys.prefix\nsys.prefix = base",
+        "detail": ".venv.bin.activate_this",
+        "documentation": {}
+    },
+    {
+        "label": "prev_length",
+        "kind": 5,
+        "importPath": ".venv.bin.activate_this",
+        "description": ".venv.bin.activate_this",
+        "peekOfCode": "prev_length = len(sys.path)\nfor lib in '../lib/python3.13/site-packages'.split(os.pathsep):\n    path = os.path.realpath(os.path.join(bin_dir, lib))\n    site.addsitedir(path.decode(\"utf-8\") if '' else path)\nsys.path[:] = sys.path[prev_length:] + sys.path[0:prev_length]\nsys.real_prefix = sys.prefix\nsys.prefix = base",
+        "detail": ".venv.bin.activate_this",
+        "documentation": {}
+    },
+    {
+        "label": "sys.path[:]",
+        "kind": 5,
+        "importPath": ".venv.bin.activate_this",
+        "description": ".venv.bin.activate_this",
+        "peekOfCode": "sys.path[:] = sys.path[prev_length:] + sys.path[0:prev_length]\nsys.real_prefix = sys.prefix\nsys.prefix = base",
+        "detail": ".venv.bin.activate_this",
+        "documentation": {}
+    },
+    {
+        "label": "sys.real_prefix",
+        "kind": 5,
+        "importPath": ".venv.bin.activate_this",
+        "description": ".venv.bin.activate_this",
+        "peekOfCode": "sys.real_prefix = sys.prefix\nsys.prefix = base",
+        "detail": ".venv.bin.activate_this",
+        "documentation": {}
+    },
+    {
+        "label": "sys.prefix",
+        "kind": 5,
+        "importPath": ".venv.bin.activate_this",
+        "description": ".venv.bin.activate_this",
+        "peekOfCode": "sys.prefix = base",
+        "detail": ".venv.bin.activate_this",
+        "documentation": {}
+    },
+    {
+        "label": "Context",
+        "kind": 6,
+        "importPath": "langgraph-bot.src.react_agent.context",
+        "description": "langgraph-bot.src.react_agent.context",
+        "peekOfCode": "class Context:\n    \"\"\"The context for the agent.\"\"\"\n    system_prompt: str = field(\n        default=prompts.SYSTEM_PROMPT,\n        metadata={\n            \"description\": \"The system prompt to use for the agent's interactions. \"\n            \"This prompt sets the context and behavior for the agent.\"\n        },\n    )\n    model: Annotated[str, {\"__template_metadata__\": {\"kind\": \"llm\"}}] = field(",
+        "detail": "langgraph-bot.src.react_agent.context",
+        "documentation": {}
+    },
+    {
+        "label": "route_model_output",
+        "kind": 2,
+        "importPath": "langgraph-bot.src.react_agent.graph",
+        "description": "langgraph-bot.src.react_agent.graph",
+        "peekOfCode": "def route_model_output(state: State) -> Literal[\"__end__\", \"tools\"]:\n    \"\"\"Determine the next node based on the model's output.\n    This function checks if the model's last message contains tool calls.\n    Args:\n        state (State): The current state of the conversation.\n    Returns:\n        str: The name of the next node to call (\"__end__\" or \"tools\").\n    \"\"\"\n    last_message = state.messages[-1]\n    if not isinstance(last_message, AIMessage):",
+        "detail": "langgraph-bot.src.react_agent.graph",
+        "documentation": {}
+    },
+    {
+        "label": "DB_URI",
+        "kind": 5,
+        "importPath": "langgraph-bot.src.react_agent.graph",
+        "description": "langgraph-bot.src.react_agent.graph",
+        "peekOfCode": "DB_URI = \"postgresql://postgres:postgrespassword@localhost:5432/postgres?sslmode=disable\"\nasync def call_model(\n    state: State, runtime: Runtime[Context]\n) -> Dict[str, List[AIMessage]]:\n    \"\"\"Call the LLM powering our \"agent\".\n    This function prepares the prompt, initializes the model, and processes the response.\n    Args:\n        state (State): The current state of the conversation.\n        config (RunnableConfig): Configuration for the model run.\n    Returns:",
+        "detail": "langgraph-bot.src.react_agent.graph",
+        "documentation": {}
+    },
+    {
+        "label": "builder",
+        "kind": 5,
+        "importPath": "langgraph-bot.src.react_agent.graph",
+        "description": "langgraph-bot.src.react_agent.graph",
+        "peekOfCode": "builder = StateGraph(State, input_schema=InputState, context_schema=Context)\n# Define the two nodes we will cycle between\nbuilder.add_node(call_model)\nbuilder.add_node(\"tools\", ToolNode(TOOLS))\n# Set the entrypoint as `call_model`\n# This means that this node is the first one called\nbuilder.add_edge(\"__start__\", \"call_model\")\ndef route_model_output(state: State) -> Literal[\"__end__\", \"tools\"]:\n    \"\"\"Determine the next node based on the model's output.\n    This function checks if the model's last message contains tool calls.",
+        "detail": "langgraph-bot.src.react_agent.graph",
+        "documentation": {}
+    },
+    {
+        "label": "graph",
+        "kind": 5,
+        "importPath": "langgraph-bot.src.react_agent.graph",
+        "description": "langgraph-bot.src.react_agent.graph",
+        "peekOfCode": "graph = builder.compile(name=\"ReAct Agent\")",
+        "detail": "langgraph-bot.src.react_agent.graph",
+        "documentation": {}
+    },
+    {
+        "label": "SYSTEM_PROMPT",
+        "kind": 5,
+        "importPath": "langgraph-bot.src.react_agent.prompts",
+        "description": "langgraph-bot.src.react_agent.prompts",
+        "peekOfCode": "SYSTEM_PROMPT = \"\"\"You are a helpful AI assistant.\nSystem time: {system_time}\"\"\"",
+        "detail": "langgraph-bot.src.react_agent.prompts",
+        "documentation": {}
+    },
+    {
+        "label": "InputState",
+        "kind": 6,
+        "importPath": "langgraph-bot.src.react_agent.state",
+        "description": "langgraph-bot.src.react_agent.state",
+        "peekOfCode": "class InputState:\n    \"\"\"Defines the input state for the agent, representing a narrower interface to the outside world.\n    This class is used to define the initial state and structure of incoming data.\n    \"\"\"\n    messages: Annotated[Sequence[AnyMessage], add_messages] = field(\n        default_factory=list\n    )\n    \"\"\"\n    Messages tracking the primary execution state of the agent.\n    Typically accumulates a pattern of:",
+        "detail": "langgraph-bot.src.react_agent.state",
+        "documentation": {}
+    },
+    {
+        "label": "State",
+        "kind": 6,
+        "importPath": "langgraph-bot.src.react_agent.state",
+        "description": "langgraph-bot.src.react_agent.state",
+        "peekOfCode": "class State(InputState):\n    \"\"\"Represents the complete state of the agent, extending InputState with additional attributes.\n    This class can be used to store any information needed throughout the agent's lifecycle.\n    \"\"\"\n    is_last_step: IsLastStep = field(default=False)\n    \"\"\"\n    Indicates whether the current step is the last one before the graph raises an error.\n    This is a 'managed' variable, controlled by the state machine rather than user code.\n    It is set to 'True' when the step count reaches recursion_limit - 1.\n    \"\"\"",
+        "detail": "langgraph-bot.src.react_agent.state",
+        "documentation": {}
+    },
+    {
+        "label": "get_message_text",
+        "kind": 2,
+        "importPath": "langgraph-bot.src.react_agent.utils",
+        "description": "langgraph-bot.src.react_agent.utils",
+        "peekOfCode": "def get_message_text(msg: BaseMessage) -> str:\n    \"\"\"Get the text content of a message.\"\"\"\n    content = msg.content\n    if isinstance(content, str):\n        return content\n    elif isinstance(content, dict):\n        return content.get(\"text\", \"\")\n    else:\n        txts = [c if isinstance(c, str) else (c.get(\"text\") or \"\") for c in content]\n        return \"\".join(txts).strip()",
+        "detail": "langgraph-bot.src.react_agent.utils",
+        "documentation": {}
+    },
+    {
+        "label": "test_context_init",
+        "kind": 2,
+        "importPath": "langgraph-bot.tests.unit_tests.test_configuration",
+        "description": "langgraph-bot.tests.unit_tests.test_configuration",
+        "peekOfCode": "def test_context_init() -> None:\n    context = Context(model=\"openai/gpt-4o-mini\")\n    assert context.model == \"openai/gpt-4o-mini\"\ndef test_context_init_with_env_vars() -> None:\n    os.environ[\"MODEL\"] = \"openai/gpt-4o-mini\"\n    context = Context()\n    assert context.model == \"openai/gpt-4o-mini\"\ndef test_context_init_with_env_vars_and_passed_values() -> None:\n    os.environ[\"MODEL\"] = \"openai/gpt-4o-mini\"\n    context = Context(model=\"openai/gpt-5o-mini\")",
+        "detail": "langgraph-bot.tests.unit_tests.test_configuration",
+        "documentation": {}
+    },
+    {
+        "label": "test_context_init_with_env_vars",
+        "kind": 2,
+        "importPath": "langgraph-bot.tests.unit_tests.test_configuration",
+        "description": "langgraph-bot.tests.unit_tests.test_configuration",
+        "peekOfCode": "def test_context_init_with_env_vars() -> None:\n    os.environ[\"MODEL\"] = \"openai/gpt-4o-mini\"\n    context = Context()\n    assert context.model == \"openai/gpt-4o-mini\"\ndef test_context_init_with_env_vars_and_passed_values() -> None:\n    os.environ[\"MODEL\"] = \"openai/gpt-4o-mini\"\n    context = Context(model=\"openai/gpt-5o-mini\")\n    assert context.model == \"openai/gpt-5o-mini\"",
+        "detail": "langgraph-bot.tests.unit_tests.test_configuration",
+        "documentation": {}
+    },
+    {
+        "label": "test_context_init_with_env_vars_and_passed_values",
+        "kind": 2,
+        "importPath": "langgraph-bot.tests.unit_tests.test_configuration",
+        "description": "langgraph-bot.tests.unit_tests.test_configuration",
+        "peekOfCode": "def test_context_init_with_env_vars_and_passed_values() -> None:\n    os.environ[\"MODEL\"] = \"openai/gpt-4o-mini\"\n    context = Context(model=\"openai/gpt-5o-mini\")\n    assert context.model == \"openai/gpt-5o-mini\"",
+        "detail": "langgraph-bot.tests.unit_tests.test_configuration",
+        "documentation": {}
+    }
+]
